@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: thermal_camera_driver
-Description: Description of thermal_camera_driver
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: roscpp pcl_ros pcl_conversions
