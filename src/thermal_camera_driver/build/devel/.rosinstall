@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/raymond/thermal_camera_ws/src/thermal_camera_driver/build/devel/setup.sh

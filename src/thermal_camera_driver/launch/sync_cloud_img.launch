@@ -1,0 +1,8 @@
+<launch>
+    <node name="sync_cloud_img" pkg="thermal_camera_driver" type="sync_cloud_img" output="screen">
+        <param name="camera_topic" type="string" value="/ladybug" />
+        <param name="pointcloud_topic" type="string" value="/rslidar_points" />
+        <param name="camera_id" type="string" value="4" />
+        <param name="file_saved_path" type="string" value="/home/nrsl/calibration_dataset" />
+    </node>
+</launch>
