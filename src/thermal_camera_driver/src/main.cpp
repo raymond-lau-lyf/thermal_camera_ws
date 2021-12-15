@@ -147,8 +147,8 @@ int main(int argc, char *argv[])
     // paraOut.dwColorBarWidth = 0;
     paraOut.dwColorBarHeight = pCamInfo->intVideoHeight;
 
-    // device.SetColorPalette(RainBow); //设置图像颜色样式 Gray0to255 IronBow
-    device.SetColorPalette(Gray0to255); //设置图像颜色样式 Gray0to255 IronBow
+    device.SetColorPalette(RainBow); //设置图像颜色样式 Gray0to255 IronBow
+    // device.SetColorPalette(Gray0to255); //设置图像颜色样式 Gray0to255 IronBow
 
 
     // if (!device.StartProcessImage(&paraOut, NewFrame, STREAM_VIDEO, (ULONG)&device))
