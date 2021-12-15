@@ -165,8 +165,7 @@ int main(int argc, char *argv[])
     {
         if (result.cols > 100)
         {
-        cv::imshow("result", result);
-
+            cv::imshow("result", result);
         }
         char key_board = cv::waitKey(10);
         if (key_board == 's')
