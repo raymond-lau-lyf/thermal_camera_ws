@@ -143,8 +143,8 @@ int main(int argc, char *argv[])
     paraOut.dwFPAHeight = pCamInfo->intFPAHeight;
     paraOut.dwBMPWidth = pCamInfo->intVideoWidth;
     paraOut.dwBMPHeight = pCamInfo->intVideoHeight;
-    // paraOut.dwColorBarWidth = 16;
-    paraOut.dwColorBarWidth = 0;
+    paraOut.dwColorBarWidth = 16;
+    // paraOut.dwColorBarWidth = 0;
     paraOut.dwColorBarHeight = pCamInfo->intVideoHeight;
 
     // device.SetColorPalette(RainBow); //设置图像颜色样式 Gray0to255 IronBow
